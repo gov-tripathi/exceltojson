@@ -1,0 +1,30 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Build outputs
+frontend/dist/
+.vercel/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test files
+backend/test.xlsx
+
